@@ -9,7 +9,7 @@ public class Solution {
 
         while (current != null || !stack.isEmpty()) {
 
-            // Go as left as possible
+            // Reach the leftmost node
             while (current != null) {
                 stack.push(current);
                 current = current.left;
